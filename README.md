@@ -40,12 +40,16 @@ PPNL/
 │       ├── 5x5/                     # OOD (Smaller size)
 │       ├── 6x6/                     # IID (Training/Validation/Test)
 │       ├── 6x6_dense/               # OOD (Higher obstacle density)
-│       └── 7x7/                     # OOD (Larger size)
+│       ├── 7x7/                     # OOD (Larger size)
+│       └── 10x10_long/              # Optional long-horizon stress split
 └── outputs/
     ├── 5x5/                         # Results for 5×5 OOD test set
     ├── 6x6/                         # Results for 6×6 IID test set
     ├── 6x6_dense/                   # Results for 6×6_dense OOD test set
-    └── 7x7/                         # Results for 7×7 OOD test set
+    ├── 7x7/                         # Results for 7×7 OOD test set
+    ├── analysis/                    # Executor failure analysis
+    ├── finetuned/                   # Fine-tuned model artifacts
+    └── part2_summary.md             # Report-ready Part 2 summary
 ```
 
 ---
@@ -93,8 +97,15 @@ Each line in every data file is a JSON object with the following fields:
 ## Quick Start
 
 ```bash
-# Install dependencies (Python >= 3.8, no mandatory third-party packages)
+# Install dependencies (Python >= 3.8)
 pip install -r requirements.txt
+```
+
+The committed fine-tuned model weights use Git LFS. After cloning, run:
+
+```bash
+git lfs install
+git lfs pull
 ```
 
 ### 1 · Generate data
@@ -387,7 +398,15 @@ powershell -ExecutionPolicy Bypass -File scripts/run_part2_finetune.ps1 `
   -RunExtra
 ```
 
-For a stronger but slower model, reduce batch size first. Avoid `fp16` unless you have verified that training loss is finite on your GPU.
+The currently committed fine-tuned model is:
+
+```text
+outputs/finetuned/google-flan-t5-small_6x6
+```
+
+This is a fine-tuned `google/flan-t5-small` model. The `flan-t5-base` files under `outputs/<grid>/` are **unfine-tuned Part 1 baseline predictions**, not a fine-tuned base checkpoint.
+
+For a stronger but slower same-family size ablation, train `google/flan-t5-base` separately. Reduce batch size first and make sure the HuggingFace cache has enough disk space; avoid `fp16` unless you have verified that training loss is finite on your GPU.
 
 ```bash
 EPOCHS=20 TRAIN_BS=4 EVAL_BS=8 \
@@ -407,26 +426,26 @@ python scripts/train_seq2seq_finetune.py \
   --model_name_or_path google/flan-t5-small \
   --train_file data/single_goal/6x6/train.jsonl \
   --valid_file data/single_goal/6x6/valid.jsonl \
-  --output_dir outputs/finetuned/flan-t5-small_6x6 \
+  --output_dir outputs/finetuned/google-flan-t5-small_6x6 \
   --num_train_epochs 30 \
   --per_device_train_batch_size 16 \
   --learning_rate 5e-5 \
   --no_grid
 
 python scripts/run_finetuned_model.py \
-  --model_path outputs/finetuned/flan-t5-small_6x6 \
+  --model_path outputs/finetuned/google-flan-t5-small_6x6 \
   --data_file data/single_goal/6x6/test_iid.jsonl \
-  --out_file outputs/6x6/flan-t5-small_finetune_preds.jsonl \
+  --out_file outputs/6x6/google-flan-t5-small_finetune_preds.jsonl \
   --no_grid
 
 python scripts/evaluate_executor.py \
   --data_file data/single_goal/6x6/test_iid.jsonl \
-  --pred_file outputs/6x6/flan-t5-small_finetune_preds.jsonl \
-  --out_file outputs/6x6/flan-t5-small_finetune_metrics.json
+  --pred_file outputs/6x6/google-flan-t5-small_finetune_preds.jsonl \
+  --out_file outputs/6x6/google-flan-t5-small_finetune_metrics.json
 
 python scripts/analyze_failures.py \
   --data_file data/single_goal/6x6/test_iid.jsonl \
-  --pred_file outputs/6x6/flan-t5-small_finetune_preds.jsonl \
+  --pred_file outputs/6x6/google-flan-t5-small_finetune_preds.jsonl \
   --out_dir outputs/analysis
 ```
 
@@ -489,6 +508,9 @@ All data files included in this repository were generated with fixed seeds:
 | test_ood (dense) | 45 | 200 |
 | test 5×5 | 55 | 200 |
 | test 7×7 | 77 | 200 |
+| test 10×10 long | 1010 | 200 |
+
+The following tables are **Part 1 unfine-tuned baseline results** from the original HuggingFace/API baseline scripts. In particular, `flan-t5-base` here means the pretrained model run directly with `scripts/run_baseline.py`; it is not a fine-tuned Flan-T5-base model. Current Part 2 prompting and fine-tuning results are summarized in `outputs/part2_summary.md`.
 
 ### 5×5 results
 
