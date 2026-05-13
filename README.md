@@ -510,14 +510,15 @@ All data files included in this repository were generated with fixed seeds:
 | test 7×7 | 77 | 200 |
 | test 10×10 long | 1010 | 200 |
 
-The following tables are **Part 1 unfine-tuned baseline results** from the original HuggingFace/API baseline scripts. In particular, `flan-t5-base` here means the pretrained model run directly with `scripts/run_baseline.py`; it is not a fine-tuned Flan-T5-base model. Current Part 2 prompting and fine-tuning results are summarized in `outputs/part2_summary.md`.
+The following tables are **Part 1 unfine-tuned HuggingFace baseline results** from the original baseline script. In particular, `flan-t5-base` here means the pretrained model run directly with `scripts/run_baseline.py`; it is not a fine-tuned Flan-T5-base model. Current Part 2 prompting and fine-tuning results are summarized in `outputs/part2_summary.md`.
+
+The old `deepseek-chat` zero-shot files produced empty predictions because the earlier API pipeline failed, so they are not reported as valid results here. Valid DeepSeek API experiments are the Part 2 `deepseek-v4-pro` and `deepseek-v4-flash` runs.
 
 ### 5×5 results
 
 | Model | N | Parse Rate | Feasibility | Success Rate | Optimality |
 |---|---|---|---|---|---|
 | bart-base | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| deepseek-chat | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-base | 200 | 0.0450 | 0.0300 | 0.0000 | 0.0000 |
 | flan-t5-small | 200 | 0.0850 | 0.0350 | 0.0000 | 0.0000 |
 
@@ -526,7 +527,6 @@ The following tables are **Part 1 unfine-tuned baseline results** from the origi
 | Model | N | Parse Rate | Feasibility | Success Rate | Optimality |
 |---|---|---|---|---|---|
 | bart-base | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| deepseek-chat | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-base | 200 | 0.0150 | 0.0100 | 0.0000 | 0.0000 |
 | flan-t5-small | 200 | 0.1500 | 0.0300 | 0.0000 | 0.0000 |
 
@@ -535,7 +535,6 @@ The following tables are **Part 1 unfine-tuned baseline results** from the origi
 | Model | N | Parse Rate | Feasibility | Success Rate | Optimality |
 |---|---|---|---|---|---|
 | bart-base | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| deepseek-chat | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-base | 200 | 0.0250 | 0.0150 | 0.0000 | 0.0000 |
 | flan-t5-small | 200 | 0.2300 | 0.0050 | 0.0000 | 0.0000 |
 
@@ -544,7 +543,6 @@ The following tables are **Part 1 unfine-tuned baseline results** from the origi
 | Model | N | Parse Rate | Feasibility | Success Rate | Optimality |
 |---|---|---|---|---|---|
 | bart-base | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| deepseek-chat | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-base | 200 | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-small | 200 | 0.1050 | 0.0050 | 0.0000 | 0.0000 |
 
@@ -553,7 +551,6 @@ The following tables are **Part 1 unfine-tuned baseline results** from the origi
 | Model | 5×5 | 6×6 | 7×7 | 6×6 Dense |
 |---|---|---|---|---|
 | bart-base | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
-| deepseek-chat | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-base | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 | flan-t5-small | 0.0000 | 0.0000 | 0.0000 | 0.0000 |
 
