@@ -1,0 +1,56 @@
+{
+  "aggregate": {
+    "n_samples": 5,
+    "parse_rate": 0.8,
+    "feasibility": 0.8,
+    "success_rate": 0.8,
+    "optimality": 0.8
+  },
+  "per_sample": [
+    {
+      "parse_ok": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 3,
+      "pred_len": 3,
+      "id": "test_iid_000001"
+    },
+    {
+      "parse_ok": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 1,
+      "pred_len": 1,
+      "id": "test_iid_000002"
+    },
+    {
+      "parse_ok": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 4,
+      "pred_len": 4,
+      "id": "test_iid_000003"
+    },
+    {
+      "parse_ok": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 6,
+      "pred_len": 6,
+      "id": "test_iid_000004"
+    },
+    {
+      "parse_ok": 0,
+      "feasible": 0,
+      "success": 0,
+      "optimal": 0,
+      "gold_len": 8,
+      "pred_len": 0,
+      "id": "test_iid_000005"
+    }
+  ]
+}

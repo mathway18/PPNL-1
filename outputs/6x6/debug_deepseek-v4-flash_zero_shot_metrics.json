@@ -1,0 +1,62 @@
+{
+  "aggregate": {
+    "n_samples": 5,
+    "parse_rate": 1.0,
+    "exact_match": 0.8,
+    "feasibility": 1.0,
+    "success_rate": 1.0,
+    "optimality": 1.0
+  },
+  "per_sample": [
+    {
+      "parse_ok": 1,
+      "exact_match": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 3,
+      "pred_len": 3,
+      "id": "test_iid_000001"
+    },
+    {
+      "parse_ok": 1,
+      "exact_match": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 1,
+      "pred_len": 1,
+      "id": "test_iid_000002"
+    },
+    {
+      "parse_ok": 1,
+      "exact_match": 0,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 4,
+      "pred_len": 4,
+      "id": "test_iid_000003"
+    },
+    {
+      "parse_ok": 1,
+      "exact_match": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 6,
+      "pred_len": 6,
+      "id": "test_iid_000004"
+    },
+    {
+      "parse_ok": 1,
+      "exact_match": 1,
+      "feasible": 1,
+      "success": 1,
+      "optimal": 1,
+      "gold_len": 8,
+      "pred_len": 8,
+      "id": "test_iid_000005"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{"id": "test_iid_000001", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (rows=4, col<4). Obstacles: [(1,0), (2,1), (1,5"}
+{"id": "test_iid_000002", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=1). Goal: (arrow=3). Obstacles: [(0,0), (2,5), (5,2)]. Output the actions"}
+{"id": "test_iid_000003", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=4, col<1). Obstacles: [(0,2), (1,0), (2,5"}
+{"id": "test_iid_000004", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=5). Goal: (arrow=1, col<2). Obstacles: [(0,0), (1,0) (1), ("}
+{"id": "test_iid_000005", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (arrow=4, col<0). Obstacles: [(1,0), (1,4), (2,0"}
+{"id": "test_iid_000006", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=4, col<3). Obstacles: [(1,1), (3,0), (4,5"}
+{"id": "test_iid_000007", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=0). Goal: (rows=4, col<0). Obstacles: [(2,2), (2,3), (3,1"}
+{"id": "test_iid_000008", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (rows=3, col<3). Obstacles: [(0,2), (1,4), (2,0"}
+{"id": "test_iid_000009", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=3). Goal: (rows=0, col<3). Obstacles: [(1,2), (2,0), (1,3"}
+{"id": "test_iid_000010", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=4, col<2). Obstacles: [(0,4), (0,5), (1,0"}
+{"id": "test_iid_000011", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=2). Goal: (rows=1, col<3). Obstacles: [(0,1), (0,4), (1), 5"}
+{"id": "test_iid_000012", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=5). Goal: (rows=5, col<3). Obstacles: [(0,0), (1,0) (1), ("}
+{"id": "test_iid_000013", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=1). Goal: (arrow=0), col=3). Obstacles: [(1,5), (5,0), (4), ("}
+{"id": "test_iid_000014", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=1, col<1). Obstacles: [(0,3), (1,3) (2,2"}
+{"id": "test_iid_000015", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (arrow=0, col<1). Obstacles: [(1,2), (1,4), (5,4"}
+{"id": "test_iid_000016", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (arrow=1, col<1). Obstacles: [(1,0), (1,2), (4,1"}
+{"id": "test_iid_000017", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (arrow=2, col<1). Obstacles: [(0,0), (1,1), (2,0"}
+{"id": "test_iid_000018", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=3, col<1). Obstacles: [(0,5), (1,2), (2,2"}
+{"id": "test_iid_000019", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (rows=3, col<0). Obstacles: [(1,4), (1,5), (3,5"}
+{"id": "test_iid_000020", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=5). Goal: (rows=2, col<4). Obstacles: [(0,3), (1,0), (2,0"}
+{"id": "test_iid_000021", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (rows=0, col<1). Obstacles: [(0,0), (0,4), (1,0"}
+{"id": "test_iid_000022", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=3). Goal: (arrow=3, col<0). Obstacles: [(1,1), (1,3), (4,2"}
+{"id": "test_iid_000023", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=1). Goal: (rows=3, col<4). Obstacles: [(1,3), (1,5), (2,0"}
+{"id": "test_iid_000024", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=0). Goal: (rows=4, col<3). Obstacles: [(1,1), (1,5), (2,0"}
+{"id": "test_iid_000025", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=0). Goal: (rows=2, col<5). Obstacles: [(1,1), (4,3), (5,2"}
+{"id": "test_iid_000026", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (rows=2, col<2). Obstacles: [(0,3), (0,4), (1,5"}
+{"id": "test_iid_000027", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (rows=2, col<5). Obstacles: [(0,2), (0,3), (1,4"}
+{"id": "test_iid_000028", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (arrow=2), col=4). Obstacles: [(0,1), (1,0), (0,3"}
+{"id": "test_iid_000029", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=0, col<3). Obstacles: [(0,5), (1,1), (2,3"}
+{"id": "test_iid_000030", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=1). Goal: (rows=3, col<1). Obstacles: [(0,3), (0,4), (1,4"}
+{"id": "test_iid_000031", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=2, col<5). Obstacles: [(0,0), (0,1), (2,0"}
+{"id": "test_iid_000032", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=1, col<4). Obstacles: [(0,0), (0,4), (2,2"}
+{"id": "test_iid_000033", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=4). Goal: (rows=5, col<2). Obstacles: [(1,0), (1,3), (2,4"}
+{"id": "test_iid_000034", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=3). Goal: (arrow=0, col<5). Obstacles: [(1,1), (1,4), (2,1"}
+{"id": "test_iid_000035", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (arrow=4). Obstacles: [(0,3), (1,0), (0,2), (2,"}
+{"id": "test_iid_000036", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=4, col<2). Obstacles: [(0,4), (3,3), (5,4"}
+{"id": "test_iid_000037", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (rows=2, col<0). Obstacles: [(0,1), (0,2), (1,4"}
+{"id": "test_iid_000038", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=3), col=4). Obstacles: [(0,2), (2,0), (1), ("}
+{"id": "test_iid_000039", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=5). Goal: (rows=5, col<4). Obstacles: [(0,3), (1,2), (2,0"}
+{"id": "test_iid_000040", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=5). Goal: (rows=1, col<1). Obstacles: [(0,1), (2,1) (4,1"}
+{"id": "test_iid_000041", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=5). Goal: (rows=5), col=1). Obstacles: [(0,5), (2,1), (3,4"}
+{"id": "test_iid_000042", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=2). Goal: (rows=4, col<4). Obstacles: [(0,1), (0,5), (2,5"}
+{"id": "test_iid_000043", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=0, col<4). Obstacles: [(0,1), (1,1) (2,3"}
+{"id": "test_iid_000044", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (rows=4, col<3). Obstacles: [(1,2), (2,0), (1,1"}
+{"id": "test_iid_000045", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=5, col<2). Obstacles: [(0,2), (0,3), (3,1"}
+{"id": "test_iid_000046", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=5). Goal: (rows=0, col<5). Obstacles: [(2,3), (4,2), (5,2"}
+{"id": "test_iid_000047", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=1, col<4). Obstacles: [(0,0), (1,1), (2,4"}
+{"id": "test_iid_000048", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (rows=2, col<4). Obstacles: [(0,0), (0,4), (2,0"}
+{"id": "test_iid_000049", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (rows=3, col<2). Obstacles: [(0,3), (1,1), (2,5"}
+{"id": "test_iid_000050", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (arrow=2, col<2). Obstacles: [(4,3), (5,0), (4,4"}
+{"id": "test_iid_000051", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (rows=4, col<4). Obstacles: [(1,1), (2,4), (4,2"}
+{"id": "test_iid_000052", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=3). Goal: (rows=3, col<5). Obstacles: [(2,0), (3,3), (5,0"}
+{"id": "test_iid_000053", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=5). Goal: (rows=5, col<4). Obstacles: [(0,4), (2,0), (3,1"}
+{"id": "test_iid_000054", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=5). Goal: (rows=2, col<5). Obstacles: [(2,0), (2,3), (5,5"}
+{"id": "test_iid_000055", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (arrow=1, col<0). Obstacles: [(0,3), (1,2), (2), 1"}
+{"id": "test_iid_000056", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (rows=5, col<5). Obstacles: [(0,3), (1,1), (2), ("}
+{"id": "test_iid_000057", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (rows=0, col<4). Obstacles: [(1,2), (2,0), (1,1"}
+{"id": "test_iid_000058", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=4, col<2). Obstacles: [(0,0), (0,2), (1,2"}
+{"id": "test_iid_000059", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=2, col<0). Obstacles: [(0,2), (0,3), (1,3"}
+{"id": "test_iid_000060", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=4, col<0). Obstacles: [(0,0), (0,4), (2,3"}
+{"id": "test_iid_000061", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=5, col<1). Obstacles: [(0,3), (2,0), (3,5"}
+{"id": "test_iid_000062", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (rows=0, col<4). Obstacles: [(0,0), (0,2), (1,0"}
+{"id": "test_iid_000063", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=2, col<3). Obstacles: [(0,0), (1,2), (2,4"}
+{"id": "test_iid_000064", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=0). Goal: (rows=3, col<5). Obstacles: [(0,0), (0,1), (1,3"}
+{"id": "test_iid_000065", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (rows=1, col<4). Obstacles: [(0,3), (0,5), (2,0"}
+{"id": "test_iid_000066", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (arrow=4, col<2). Obstacles: [(0,4), (1,0), (2,3"}
+{"id": "test_iid_000067", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (arrow=3, col =3). Obstacles: [(1,0), (2,4), (3,1"}
+{"id": "test_iid_000068", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=0, col<1). Obstacles: [(0,3), (1,3). (2,0"}
+{"id": "test_iid_000069", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=0, col<2). Obstacles: [(0,3), (0,5), (2,1"}
+{"id": "test_iid_000070", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=4, col<1). Obstacles: [(0,1), (0,2), (4,5"}
+{"id": "test_iid_000071", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (rows=1, col<2). Obstacles: [(2,0), (2,4), (3,0"}
+{"id": "test_iid_000072", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (arrow=2, col =3). Obstacles: [(1,5), (2,1), (1,2"}
+{"id": "test_iid_000073", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (rows=5, col<4). Obstacles: [(0,3), (1,5), (2,2"}
+{"id": "test_iid_000074", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (arrow=4), col=1). Obstacles: [(0,2), (1,0), (2,2"}
+{"id": "test_iid_000075", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=3). Goal: (rows=0, col =3). Obstacles: [(0,1), (1,3), (3,1"}
+{"id": "test_iid_000076", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=5). Goal: (rows=5, col<3). Obstacles: [(0,0), (0,1), (2,0"}
+{"id": "test_iid_000077", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (rows=0, col<5). Obstacles: [(0,4), (1,3), (2,4"}
+{"id": "test_iid_000078", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=5, col<3). Obstacles: [(0,1), (1,2), (2,4"}
+{"id": "test_iid_000079", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (rows=2, col<0). Obstacles: [(0,0), (0,5), (4,1"}
+{"id": "test_iid_000080", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=2). Goal: (arrow=3), col=3). Obstacles: [(0,3), (3,0), (5,4"}
+{"id": "test_iid_000081", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (rows=3, col<0). Obstacles: [(0,5), (2,3), (4,0"}
+{"id": "test_iid_000082", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=2, col<1). Obstacles: [(2,3), (3,2), (4,5"}
+{"id": "test_iid_000083", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (arrow=2, col<0). Obstacles: [(1,0), (2,2), (3,4"}
+{"id": "test_iid_000084", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (rows=1, col =0). Obstacles: [(1,3), (1,5), (2,1"}
+{"id": "test_iid_000085", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=5, col<0). Obstacles: [(0,5), (2,1), (4,1"}
+{"id": "test_iid_000086", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=0, col =2). Obstacles: [(0,4), (1,2), (3,3"}
+{"id": "test_iid_000087", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=0). Goal: (rows=5, col<3). Obstacles: [(0,3), (4,2), (5,3"}
+{"id": "test_iid_000088", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (rows=0), col=3). Obstacles: [(0,1), (1,4), (2,1"}
+{"id": "test_iid_000089", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (arrow=2), col=3). Obstacles: [(4,1), (5,0), (4,4"}
+{"id": "test_iid_000090", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (arrow=1, col<5). Obstacles: [(0,4), (1,2), (3,1"}
+{"id": "test_iid_000091", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=5). Goal: (rows=0, col<0). Obstacles: [(0,5), (1,4), (2,2"}
+{"id": "test_iid_000092", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (arrow=3), col=3). Obstacles: [(0,0), (1,2), (2,3"}
+{"id": "test_iid_000093", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=0, col =5). Obstacles: [(0,3), (1,2), (2,5"}
+{"id": "test_iid_000094", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=2, col<4). Obstacles: [(0,2), (1,1), (2,3"}
+{"id": "test_iid_000095", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=5). Goal: (arrow=3). Obstacles: [(1,1), (1,2), (3,5), (2,"}
+{"id": "test_iid_000096", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (rows=2, col<0). Obstacles: [(4,1), (4,4), (5,2"}
+{"id": "test_iid_000097", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=3, col<3). Obstacles: [(0,0), (2,1), (1,2"}
+{"id": "test_iid_000098", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=1). Goal: (rows=0, col<4). Obstacles: [(1,1), (1,2), (2,3"}
+{"id": "test_iid_000099", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (arrow=2), col=3). Obstacles: [(0,1), (0,3), (2,5"}
+{"id": "test_iid_000100", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=0). Goal: (rows=4, col<2). Obstacles: [(0,2), (1,4), (2,1"}
+{"id": "test_iid_000101", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (arrow=4, col<4). Obstacles: [(1,1), (1,2), (2,1"}
+{"id": "test_iid_000102", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=0, col<3). Obstacles: [(0,5), (2,1), (5,3"}
+{"id": "test_iid_000103", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (arrow=2, col<0). Obstacles: [(1,0), (1,1), (3,0"}
+{"id": "test_iid_000104", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=1). Goal: (arrow=2, col<3). Obstacles: [(0,4), (1,5), (3,1"}
+{"id": "test_iid_000105", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=4). Goal: (rows=3, col<2). Obstacles: [(0,2), (0,5), (2,4"}
+{"id": "test_iid_000106", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=2). Goal: (arrow=4, col<1). Obstacles: [(1,2), (1,3), (2,3"}
+{"id": "test_iid_000107", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (rows=5, col<5). Obstacles: [(1,2), (2,3), (4,1"}
+{"id": "test_iid_000108", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=1). Goal: (rows=3, col<2). Obstacles: [(0,1), (1,4), (3,1"}
+{"id": "test_iid_000109", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=3). Goal: (rows=4, col<5). Obstacles: [(0,4), (0,5), (1,0"}
+{"id": "test_iid_000110", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=5). Goal: (rows=2, col<1). Obstacles: [(0,1), (0,2), (2,0"}
+{"id": "test_iid_000111", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=0). Goal: (arrow=3). Obstacles: [(1,5), (2,1), (1,2), (3,"}
+{"id": "test_iid_000112", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=1). Goal: (arrow=0), col=0). Obstacles: [(0,3), (1,2), (2,0"}
+{"id": "test_iid_000113", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=5). Goal: (arrow=2, col =5). Obstacles: [(1,2), (2,3), (3,3"}
+{"id": "test_iid_000114", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=4). Goal: (rows=1, col<1). Obstacles: [(1,2), (2,0), (1,3"}
+{"id": "test_iid_000115", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=5, col<5). Obstacles: [(1,1), (2,3), (5,3"}
+{"id": "test_iid_000116", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=3, col<1). Obstacles: [(1,1), (1,2), (2,5"}
+{"id": "test_iid_000117", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=5, col<4). Obstacles: [(0,0), (2,1), (1,2"}
+{"id": "test_iid_000118", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (arrow=2), col=3). Obstacles: [(1,3), (3,1), (2,3"}
+{"id": "test_iid_000119", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (arrow=2, col<5). Obstacles: [(1,1), (1,5), (2,4"}
+{"id": "test_iid_000120", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (rows=5, col<1). Obstacles: [(0,4), (1,1), (2), ("}
+{"id": "test_iid_000121", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=1, col =5). Obstacles: [(1,0), (1,3), (2,4"}
+{"id": "test_iid_000122", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=1). Goal: (rows=5, col<1). Obstacles: [(1,1), (1,4), (2,0"}
+{"id": "test_iid_000123", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (rows=4, col<3). Obstacles: [(1,2), (2,3), (1,5"}
+{"id": "test_iid_000124", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (rows=4, col<0). Obstacles: [(0,4), (2,4) (5,4"}
+{"id": "test_iid_000125", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=2, col<4). Obstacles: [(0,1), (1,3), (2,1"}
+{"id": "test_iid_000126", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (rows=1, col<0). Obstacles: [(0,0), (2,4), (1,5"}
+{"id": "test_iid_000127", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=0). Goal: (rows=5, col<0). Obstacles: [(1,4), (1,5), (2,0"}
+{"id": "test_iid_000128", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=3). Goal: (rows=3, col<2). Obstacles: [(0,3), (0,4), (2,4"}
+{"id": "test_iid_000129", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=1). Goal: (rows=1, col<4). Obstacles: [(0,2), (3,0), (2,3"}
+{"id": "test_iid_000130", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=5, col<4). Obstacles: [(0,2), (0,3), (1,5"}
+{"id": "test_iid_000131", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=3). Goal: (rows=5, col<5). Obstacles: [(1,2), (2,1), (1,3"}
+{"id": "test_iid_000132", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=4, col<1). Obstacles: [(0,5), (3,3), (4,2"}
+{"id": "test_iid_000133", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=5). Goal: (rows=2, col<1). Obstacles: [(0,0), (2,3), (3,0"}
+{"id": "test_iid_000134", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=1). Goal: (arrow=5). Obstacles: [(1,2), (4,0), (5,1), (6,"}
+{"id": "test_iid_000135", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (arrow=3, col<0). Obstacles: [(1,0), (1,1), (2,3"}
+{"id": "test_iid_000136", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=4, col<1). Obstacles: [(1,3), (2,1), (1,2"}
+{"id": "test_iid_000137", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (rows=2, col<0). Obstacles: [(0,0), (0,2), (1,0"}
+{"id": "test_iid_000138", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (rows=2, col =1). Obstacles: [(0,1), (0,4), (1,4"}
+{"id": "test_iid_000139", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (arrow=2, col<0). Obstacles: [(1,3), (3,5), (5,5"}
+{"id": "test_iid_000140", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=0). Goal: (rows=5, col<5). Obstacles: [(0,4), (1,3), (2,4"}
+{"id": "test_iid_000141", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (rows=3, col<5). Obstacles: [(1,4), (1,5), (2,2"}
+{"id": "test_iid_000142", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=3). Goal: (rows=3, col<5). Obstacles: [(0,5), (3,4), (5,2"}
+{"id": "test_iid_000143", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=3). Goal: (rows=3, col<2). Obstacles: [(1,0), (2,0) (2), ("}
+{"id": "test_iid_000144", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (rows=5, col<1). Obstacles: [(0,0), (1,5), (2,3"}
+{"id": "test_iid_000145", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (arrow=5). Obstacles: [(1,0), (3,2), (4), (5,2)]."}
+{"id": "test_iid_000146", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=5, col<0). Obstacles: [(0,0), (1,3), (3,0"}
+{"id": "test_iid_000147", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=0). Goal: (rows=5, col<2). Obstacles: [(0,2), (2,0), (1,2"}
+{"id": "test_iid_000148", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=1). Goal: (rows=3, col<3). Obstacles: [(2,1), (2,3), (3,0"}
+{"id": "test_iid_000149", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (rows=0, col<5). Obstacles: [(3,2), (3,4), (4,0"}
+{"id": "test_iid_000150", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (rows=5, col<4). Obstacles: [(0,0), (1,5), (3,1"}
+{"id": "test_iid_000151", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (arrow=1), col=5). Obstacles: [(2,1), (2,2), (3,2"}
+{"id": "test_iid_000152", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=3). Goal: (arrow=3), col=1). Obstacles: [(0,2), (0,4), (1,4"}
+{"id": "test_iid_000153", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (arrow=4), col=4). Obstacles: [(1,0), (1,2), (4,5"}
+{"id": "test_iid_000154", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (rows=3, col<2). Obstacles: [(0,4), (1,3), (2,4"}
+{"id": "test_iid_000155", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=5). Goal: (rows=4, col<4). Obstacles: [(0,0), (1,2), (2,3"}
+{"id": "test_iid_000156", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=1, col<1). Obstacles: [(0,0), (0,4), (1,0"}
+{"id": "test_iid_000157", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=1). Goal: (rows=5, col<3). Obstacles: [(0,3), (0,5), (1,1"}
+{"id": "test_iid_000158", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=2). Goal: (arrow=1), col=4). Obstacles: [(0,0), (0,5), (2,4"}
+{"id": "test_iid_000159", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=3). Goal: (rows=3, col<4). Obstacles: [(1,0), (3,0). (3), ("}
+{"id": "test_iid_000160", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=5). Goal: (rows=5, col<3). Obstacles: [(1,0), (2,0). (2), ("}
+{"id": "test_iid_000161", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=3). Goal: (arrow=4, col<4). Obstacles: [(1,0), (1,2), (2,4"}
+{"id": "test_iid_000162", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (arrow=5), col=2). Obstacles: [(0,2), (1,5), (2,1"}
+{"id": "test_iid_000163", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (rows=5, col<5). Obstacles: [(0,1), (0,3), (1,5"}
+{"id": "test_iid_000164", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=0). Goal: (rows=3, col<5). Obstacles: [(0,5), (1,1), (2,2"}
+{"id": "test_iid_000165", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=4, col<0). Obstacles: [(0,5), (1,2), (2,1"}
+{"id": "test_iid_000166", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=3). Goal: (arrow=1), col=4). Obstacles: [(0,1), (1,2), (2,2"}
+{"id": "test_iid_000167", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (arrow=2, col<3). Obstacles: [(1,2), (1,3), (2,4"}
+{"id": "test_iid_000168", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=5, col<3). Obstacles: [(0,1), (1,1). (1), 2"}
+{"id": "test_iid_000169", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=5). Goal: (rows=3, col<3). Obstacles: [(0,4), (1,1), (2,3"}
+{"id": "test_iid_000170", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=2). Goal: (arrow=2, col<4). Obstacles: [(0,0), (1,1), (2,2"}
+{"id": "test_iid_000171", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (rows=4, col<2). Obstacles: [(1,3), (1,5), (2,1"}
+{"id": "test_iid_000172", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=3). Goal: (rows=0, col<0). Obstacles: [(1,3), (2,1), (3,1"}
+{"id": "test_iid_000173", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=5). Goal: (arrow=3), col=4). Obstacles: [(1,2), (1,4), (2,1"}
+{"id": "test_iid_000174", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=1). Goal: (arrow=0, col<2). Obstacles: [(2,5), (4,0), (5,3"}
+{"id": "test_iid_000175", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=2). Goal: (rows=1, col<0). Obstacles: [(0,0), (0,1), (2,2"}
+{"id": "test_iid_000176", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=5). Goal: (rows=0, col<1). Obstacles: [(0,3), (3,0), (2,3"}
+{"id": "test_iid_000177", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (arrow=2), col=4). Obstacles: [(0,3), (1,0), (2,4"}
+{"id": "test_iid_000178", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=3). Goal: (arrow=4, col<2). Obstacles: [(0,0), (1,0) (1), ("}
+{"id": "test_iid_000179", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (rows=1, col<2). Obstacles: [(0,5), (1,3), (2,4"}
+{"id": "test_iid_000180", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (arrow=0, col<4). Obstacles: [(0,0), (1,0) (1), ("}
+{"id": "test_iid_000181", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (rows=1, col =2). Obstacles: [(0,2), (3,1), (2,2"}
+{"id": "test_iid_000182", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=3). Goal: (rows=3, col<1). Obstacles: [(0,4), (1,1), (2,4"}
+{"id": "test_iid_000183", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=4). Goal: (rows=5, col<3). Obstacles: [(0,5), (2,0), (3,4"}
+{"id": "test_iid_000184", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=1). Goal: (arrow=4, col<0). Obstacles: [(1,0), (1,1), (2,5"}
+{"id": "test_iid_000185", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=4). Goal: (rows=4, col<2). Obstacles: [(0,4), (1,5), (2,5"}
+{"id": "test_iid_000186", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=1). Goal: (rows=4, col<4). Obstacles: [(0,5), (1,0), (2,2"}
+{"id": "test_iid_000187", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=4). Goal: (rows=5, col<1). Obstacles: [(2,0), (2,4), (3,0"}
+{"id": "test_iid_000188", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=5). Goal: (rows=0, col<5). Obstacles: [(3,4), (4,0), (5,3"}
+{"id": "test_iid_000189", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=1). Goal: (arrow=1, col<1). Obstacles: [(0,0), (2,3), (3,1"}
+{"id": "test_iid_000190", "prediction": "Plan a path. Grid 6x6. Start: (row=3, col=2). Goal: (rows=2, col<2). Obstacles: [(0,1), (0,3), (1,0"}
+{"id": "test_iid_000191", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=0). Goal: (rows=1, col =5). Obstacles: [(1,0), (1,1), (2), ("}
+{"id": "test_iid_000192", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (rows=0, col<2). Obstacles: [(0,1), (1,1) (2,2"}
+{"id": "test_iid_000193", "prediction": "Plan a path. Grid 6x6. Start: (row=2, col=2). Goal: (arrow=3, col<2). Obstacles: [(0,1), (1,1) (4,1"}
+{"id": "test_iid_000194", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=2). Goal: (arrow=4), col=1). Obstacles: [(0,5), (1,1), (2,5"}
+{"id": "test_iid_000195", "prediction": "Plan a path. Grid 6x6. Start: (row=0, col=4). Goal: (arrow=4, col<0). Obstacles: [(1,0), (2,0). (2), ("}
+{"id": "test_iid_000196", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=1). Goal: (rows=3, col<0). Obstacles: [(0,2), (2,1), (4,3"}
+{"id": "test_iid_000197", "prediction": "Plan a path. Grid 6x6. Start: (row=5, col=4). Goal: (rows=0, col<1). Obstacles: [(0,0), (0,5), (1,5"}
+{"id": "test_iid_000198", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (rows=4, col<5). Obstacles: [(0,2), (0,3), (1,4"}
+{"id": "test_iid_000199", "prediction": "Plan a path. Grid 6x6. Start: (row=4, col=4). Goal: (rows=5, col<3). Obstacles: [(0,5), (1,2), (2,3"}
+{"id": "test_iid_000200", "prediction": "Plan a path. Grid 6x6. Start: (row=1, col=4). Goal: (rows=3, col<3). Obstacles: [(0,0), (1,1), (2,4"}

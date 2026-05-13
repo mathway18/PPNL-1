@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local HuggingFace/download caches
+hf_cache/
+
+# Intermediate trainer checkpoints are reproducible and very large.
+# The final fine-tuned model directory is committed via Git LFS.
+outputs/finetuned/**/checkpoint-*/
+
+# Secrets
+.env
+.env.*
+
+# Editor / OS artefacts
+.DS_Store
+.idea/
+.vscode/
+*.swp

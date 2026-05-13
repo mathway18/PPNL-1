@@ -1,0 +1,27 @@
+{
+  "model_name_or_path": "google/flan-t5-small",
+  "train_file": "data\\single_goal\\6x6\\train.jsonl",
+  "valid_file": "data\\single_goal\\6x6\\valid.jsonl",
+  "n_train": 1000,
+  "n_valid": 200,
+  "max_input_length": 512,
+  "max_target_length": 64,
+  "include_grid": false,
+  "num_train_epochs": 30.0,
+  "learning_rate": 5e-05,
+  "train_metrics": {
+    "train_runtime": 460.6638,
+    "train_samples_per_second": 65.123,
+    "train_steps_per_second": 4.103,
+    "total_flos": 1539658436984832.0,
+    "train_loss": 0.9402794368683346,
+    "epoch": 30.0
+  },
+  "eval_metrics": {
+    "eval_loss": 0.4113628566265106,
+    "eval_runtime": 0.9014,
+    "eval_samples_per_second": 221.874,
+    "eval_steps_per_second": 14.422,
+    "epoch": 30.0
+  }
+}
