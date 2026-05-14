@@ -91,6 +91,8 @@ def train(args: argparse.Namespace) -> None:
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     model = AutoModelForSeq2SeqLM.from_pretrained(args.model_name_or_path)
+    if args.gradient_checkpointing:
+        model.config.use_cache = False
 
     train_records = load_records(args.train_file, args.max_train_samples)
     valid_records = load_records(args.valid_file, args.max_valid_samples) if args.valid_file else []
@@ -128,13 +130,19 @@ def train(args: argparse.Namespace) -> None:
         "weight_decay": args.weight_decay,
         "warmup_ratio": args.warmup_ratio,
         "logging_steps": args.logging_steps,
-        "save_strategy": "epoch",
+        "save_strategy": args.save_strategy,
         "save_total_limit": args.save_total_limit,
+        "save_safetensors": not args.no_safetensors,
         "predict_with_generate": False,
         "fp16": args.fp16,
+        "bf16": args.bf16,
+        "gradient_checkpointing": args.gradient_checkpointing,
+        "disable_tqdm": args.disable_tqdm,
         "report_to": [],
         "seed": args.seed,
     }
+    if args.optim:
+        training_arg_kwargs["optim"] = args.optim
     eval_strategy_key = (
         "eval_strategy"
         if "eval_strategy" in inspect.signature(Seq2SeqTrainingArguments).parameters
@@ -153,7 +161,12 @@ def train(args: argparse.Namespace) -> None:
     )
 
     train_result = trainer.train()
-    trainer.save_model(args.output_dir)
+    Path(args.output_dir).mkdir(parents=True, exist_ok=True)
+    model.save_pretrained(
+        args.output_dir,
+        safe_serialization=not args.no_safetensors,
+        max_shard_size=args.max_shard_size,
+    )
     tokenizer.save_pretrained(args.output_dir)
 
     train_metrics = train_result.metrics
@@ -180,6 +193,13 @@ def train(args: argparse.Namespace) -> None:
             "include_grid": not args.no_grid,
             "num_train_epochs": args.num_train_epochs,
             "learning_rate": args.learning_rate,
+            "optim": args.optim,
+            "gradient_checkpointing": args.gradient_checkpointing,
+            "fp16": args.fp16,
+            "bf16": args.bf16,
+            "save_safetensors": not args.no_safetensors,
+            "max_shard_size": args.max_shard_size,
+            "disable_tqdm": args.disable_tqdm,
             "train_metrics": train_metrics,
             "eval_metrics": eval_metrics,
         },
@@ -204,9 +224,29 @@ def main() -> None:
     parser.add_argument("--weight_decay", type=float, default=0.01)
     parser.add_argument("--warmup_ratio", type=float, default=0.05)
     parser.add_argument("--logging_steps", type=int, default=20)
+    parser.add_argument(
+        "--save_strategy",
+        default="epoch",
+        choices=["no", "steps", "epoch", "best"],
+        help="Checkpoint save strategy. Use 'no' for low-disk/large-model runs.",
+    )
     parser.add_argument("--save_total_limit", type=int, default=2)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--fp16", action="store_true")
+    parser.add_argument("--bf16", action="store_true")
+    parser.add_argument("--gradient_checkpointing", action="store_true")
+    parser.add_argument("--disable_tqdm", action="store_true")
+    parser.add_argument("--no_safetensors", action="store_true")
+    parser.add_argument(
+        "--max_shard_size",
+        default="5GB",
+        help="Maximum checkpoint shard size passed to save_pretrained, e.g. 100MB.",
+    )
+    parser.add_argument(
+        "--optim",
+        default=None,
+        help="Optional Transformers optimizer name, e.g. adafactor for lower-memory large-model runs",
+    )
     parser.add_argument("--no_grid", action="store_true", help="Use coordinate text only, without ASCII grid map")
     parser.add_argument("--max_train_samples", type=int, default=None)
     parser.add_argument("--max_valid_samples", type=int, default=None)

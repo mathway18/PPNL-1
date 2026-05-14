@@ -34,6 +34,7 @@ We improve the reasoning schema for API-based language models and analyze where 
 | deepseek-v4-pro | cot | 6x6 IID | 1.0000 | 0.7450 | 1.0000 | 1.0000 | 0.9850 |
 | deepseek-v4-flash | plan_verify | 6x6 IID | 1.0000 | 0.7350 | 1.0000 | 0.9950 | 0.9750 |
 | deepseek-v4-pro | plan_verify | 6x6 IID | 0.9900 | 0.7150 | 0.9900 | 0.9900 | 0.9550 |
+| google-flan-t5-base | finetune | 6x6 IID | 1.0000 | 0.6250 | 0.6350 | 0.6350 | 0.6350 |
 | google-flan-t5-small | finetune | 6x6 IID | 1.0000 | 0.6150 | 0.6200 | 0.6150 | 0.6150 |
 | deepseek-v4-flash | zero_shot | 6x6 Dense OOD | 1.0000 | 0.8700 | 1.0000 | 1.0000 | 1.0000 |
 | deepseek-v4-pro | zero_shot | 6x6 Dense OOD | 1.0000 | 0.8200 | 1.0000 | 1.0000 | 1.0000 |
@@ -43,8 +44,11 @@ We improve the reasoning schema for API-based language models and analyze where 
 | deepseek-v4-pro | cot | 6x6 Dense OOD | 1.0000 | 0.8000 | 1.0000 | 1.0000 | 0.9950 |
 | deepseek-v4-flash | plan_verify | 6x6 Dense OOD | 0.9950 | 0.8200 | 0.9950 | 0.9950 | 0.9700 |
 | deepseek-v4-pro | plan_verify | 6x6 Dense OOD | 0.9950 | 0.7850 | 0.9950 | 0.9950 | 0.9700 |
+| google-flan-t5-base | finetune | 6x6 Dense OOD | 1.0000 | 0.4550 | 0.4550 | 0.4550 | 0.4550 |
 | google-flan-t5-small | finetune | 6x6 Dense OOD | 1.0000 | 0.4400 | 0.4450 | 0.4400 | 0.4400 |
+| google-flan-t5-base | finetune | 5x5 OOD | 1.0000 | 0.6950 | 0.6950 | 0.6950 | 0.6950 |
 | google-flan-t5-small | finetune | 5x5 OOD | 1.0000 | 0.6950 | 0.6950 | 0.6950 | 0.6950 |
+| google-flan-t5-base | finetune | 7x7 OOD | 1.0000 | 0.4950 | 0.5100 | 0.5000 | 0.5000 |
 | google-flan-t5-small | finetune | 7x7 OOD | 1.0000 | 0.4600 | 0.4900 | 0.4600 | 0.4600 |
 
 Runs with provider/API errors are excluded from the main table; they should be resumed after the API account is funded.
@@ -61,6 +65,7 @@ Runs with provider/API errors are excluded from the main table; they should be r
 | deepseek-v4-pro | 6x6 IID | cot | 0 | 0 | 0 | 0 | 0 | 0 | 3 | 197 |
 | deepseek-v4-flash | 6x6 IID | plan_verify | 0 | 0 | 0 | 0 | 0 | 1 | 4 | 195 |
 | deepseek-v4-pro | 6x6 IID | plan_verify | 0 | 2 | 0 | 0 | 0 | 0 | 7 | 191 |
+| google-flan-t5-base_6x6 | 6x6 IID | finetune | 0 | 0 | 0 | 0 | 73 | 0 | 0 | 127 |
 | google-flan-t5-small_6x6 | 6x6 IID | finetune | 0 | 0 | 0 | 1 | 75 | 1 | 0 | 123 |
 | deepseek-v4-flash | 6x6 Dense OOD | zero_shot | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 200 |
 | deepseek-v4-pro | 6x6 Dense OOD | zero_shot | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 200 |
@@ -70,8 +75,11 @@ Runs with provider/API errors are excluded from the main table; they should be r
 | deepseek-v4-pro | 6x6 Dense OOD | cot | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 199 |
 | deepseek-v4-flash | 6x6 Dense OOD | plan_verify | 0 | 1 | 0 | 0 | 0 | 0 | 5 | 194 |
 | deepseek-v4-pro | 6x6 Dense OOD | plan_verify | 0 | 1 | 0 | 0 | 0 | 0 | 5 | 194 |
+| google-flan-t5-base_6x6 | 6x6 Dense OOD | finetune | 0 | 0 | 0 | 0 | 109 | 0 | 0 | 91 |
 | google-flan-t5-small_6x6 | 6x6 Dense OOD | finetune | 0 | 0 | 0 | 1 | 110 | 1 | 0 | 88 |
+| google-flan-t5-base_6x6 | 5x5 OOD | finetune | 0 | 0 | 0 | 0 | 61 | 0 | 0 | 139 |
 | google-flan-t5-small_6x6 | 5x5 OOD | finetune | 0 | 0 | 0 | 0 | 61 | 0 | 0 | 139 |
+| google-flan-t5-base_6x6 | 7x7 OOD | finetune | 0 | 0 | 0 | 0 | 98 | 2 | 0 | 100 |
 | google-flan-t5-small_6x6 | 7x7 OOD | finetune | 0 | 0 | 0 | 2 | 100 | 6 | 0 | 92 |
 
 ## 6. Key Findings

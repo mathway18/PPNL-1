@@ -398,13 +398,14 @@ powershell -ExecutionPolicy Bypass -File scripts/run_part2_finetune.ps1 `
   -RunExtra
 ```
 
-The currently committed fine-tuned model is:
+The currently committed fine-tuned models are:
 
 ```text
 outputs/finetuned/google-flan-t5-small_6x6
+outputs/finetuned/google-flan-t5-base_6x6
 ```
 
-This is a fine-tuned `google/flan-t5-small` model. The `flan-t5-base` files under `outputs/<grid>/` are **unfine-tuned Part 1 baseline predictions**, not a fine-tuned base checkpoint.
+These are fine-tuned `google/flan-t5-small` and `google/flan-t5-base` checkpoints. The plain `flan-t5-base` files under `outputs/<grid>/` remain **unfine-tuned Part 1 baseline predictions**; the fine-tuned base outputs use the `google-flan-t5-base_finetune_*` filenames.
 
 For a stronger but slower same-family size ablation, train `google/flan-t5-base` separately. Reduce batch size first and make sure the HuggingFace cache has enough disk space; avoid `fp16` unless you have verified that training loss is finite on your GPU.
 

@@ -1,0 +1,33 @@
+{
+  "model_name_or_path": "google/flan-t5-base",
+  "train_file": "data/single_goal/6x6/train.jsonl",
+  "valid_file": "data/single_goal/6x6/valid.jsonl",
+  "n_train": 1000,
+  "n_valid": 200,
+  "max_input_length": 512,
+  "max_target_length": 64,
+  "include_grid": false,
+  "num_train_epochs": 30.0,
+  "learning_rate": 5e-05,
+  "optim": "adafactor",
+  "gradient_checkpointing": true,
+  "fp16": false,
+  "bf16": false,
+  "save_safetensors": true,
+  "max_shard_size": "100MB",
+  "disable_tqdm": true,
+  "train_metrics": {
+    "train_runtime": 3879.0842,
+    "train_samples_per_second": 7.734,
+    "train_steps_per_second": 0.487,
+    "train_loss": 0.648094447201522,
+    "epoch": 30.0
+  },
+  "eval_metrics": {
+    "eval_loss": 0.3177534341812134,
+    "eval_runtime": 3.2892,
+    "eval_samples_per_second": 60.805,
+    "eval_steps_per_second": 15.201,
+    "epoch": 30.0
+  }
+}
